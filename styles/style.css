@@ -22,6 +22,7 @@ body {
 }
 
 .cabecalho {
+    display: flex;
     padding: 2% 2% 2% 15%;
     background-color: var(--cor-quaternaria);
 }
@@ -138,6 +139,7 @@ strong {
 }
 
 .rodape {
+    display: flex;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding: 24px;
@@ -147,7 +149,7 @@ strong {
     font-weight: 400;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 480px) and (max-width: 800px) {
     .cabecalho {
         padding: 10%;
     }
